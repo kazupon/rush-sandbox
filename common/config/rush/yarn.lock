@@ -2,6 +2,19 @@
 # yarn lockfile v1
 
 
+"@rush-temp/my-app@file:./projects/my-app.tgz":
+  version "0.0.0"
+  resolved "file:./projects/my-app.tgz"
+  dependencies:
+    typescript "^3.0.3"
+    whatwg-fetch "^3.0.0"
+
+"@rush-temp/my-controls@file:./projects/my-controls.tgz":
+  version "0.0.0"
+  resolved "file:./projects/my-controls.tgz"
+  dependencies:
+    typescript "^3.0.3"
+
 "@rush-temp/my-toolchain@file:./projects/my-toolchain.tgz":
   version "0.0.0"
   resolved "file:./projects/my-toolchain.tgz"
@@ -99,6 +112,11 @@ typescript@^3.0.3:
   version "3.9.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
   integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
+
+whatwg-fetch@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.1.0.tgz#49d630cdfa308dba7f2819d49d09364f540dbcc6"
+  integrity sha512-pgmbsVWKpH9GxLXZmtdowDIqtb/rvPyjjQv3z9wLcmgWKFHilKnZD3ldgrOlwJoPGOUluQsRPWd52yVkPfmI1A==
 
 wrappy@1:
   version "1.0.2"
